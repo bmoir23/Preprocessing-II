@@ -1,1 +1,40 @@
 // Navigation Styles here
+.nav-container{
+    height:100px;
+    width: 100%;
+    border-bottom: 3px dashed @navigation-border;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+     
+   
+    .nav-content {
+        width:800px;
+        padding:20px;
+        align-items: center;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+
+         @media @phone{
+        display:flex;    
+        flex-direction: column;
+        justify-content: space-between;
+        padding:10px;
+        margin:0 auto;
+       }
+        
+    }
+    
+    a{
+        text-decoration: none;
+        color: @silver;
+        font-size:20px;
+        padding:20px;
+    }
+       
+    
+}
+       
+      
